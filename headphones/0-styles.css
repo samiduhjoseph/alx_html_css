@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Source-sans-pro"; /* Name to reference the font */
+  src: url("./font/source-sans-pro/SourceSansPro-Regular.otf")
+    format("opentype"); /* Path to the font file */
+}
+@font-face {
+  font-family: "spin-cycle"; /* Name to reference the font */
+  src: url("./font/Spin-Cycle-OT/spincycle_ot.otf") format("opentype"); /* Path to the font file */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source-sans-pro", Helvetica, sans-serif;
+}
+.hero--section {
+  background-image: url(./image/images/headphones_hero_1.jpg);
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem 1rem 0;
+}
+.navigation img {
+  width: 160px;
+}
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+.navigation a:hover {
+  color: #ff6565;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 15rem auto 1rem;
+  padding: 0 0 5rem;
+  gap: 0.2rem;
+  color: white;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 32px;
+}
+.hero p {
+  text-align: center;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.hero button {
+  background-color: #ff6565;
+  border: none;
+  margin: 2.5rem 0 4rem;
+  font-size: 14px;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 20px;
+}
+
+@media (max-width: 950px) {
+}
